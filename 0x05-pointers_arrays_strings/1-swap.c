@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**swapping values of two integers
+/**
+ * swapping values of two integers
  * @a:pointer to 1st value
  * @b: pointer to 2nd value
  */
