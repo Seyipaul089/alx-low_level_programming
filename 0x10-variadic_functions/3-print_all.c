@@ -17,6 +17,26 @@ void print_int(va_list list)
  * @list: arguments from print_all
  */
 
+void print_float(va_list list)
+{
+	printf("%f", va_arg(list, double));
+}
+
+/**
+ * print_char - prints int
+ * @list: arguments from print_all
+ */
+
+void print_char(va_list list)
+{
+	printf("%c", va_arg(list, int));
+}
+
+/**
+ * print_str - prints string
+ * @list: arguments from print_all
+ */
+
 void print_char(va_list list)
 {
 	char *s = va_arg(list, char *);
